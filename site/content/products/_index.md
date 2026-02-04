@@ -104,8 +104,8 @@ showcase:
       title_my: လက်လီ ရွေးချယ်မှု
       desc_en: For personal enjoyment, gifts, and everyday rituals.
       desc_my: ကိုယ်ပိုင်အပန်းဖြေအတွက်လည်း၊ လက်ဆောင်အတွက်လည်း၊ နေ့စဉ် အလေ့အထအဖြစ်လည်း သင့်တော်ပါတယ်။
-      pack_en: Pack: 20 sticks
-      pack_my: ထုပ်စည်း: ၂၀ လိပ်
+      pack_en: "Pack: 20 sticks"
+      pack_my: "ထုပ်စည်း: ၂၀ လိပ်"
       price_en: Premium tiers available
       price_my: အဆင့်မြင့်တန်း ရနိုင်
       bullets_en:
