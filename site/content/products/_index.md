@@ -1,6 +1,6 @@
 ---
-title: ချမ်းသာ ထုတ်ကုန်များ
-subtitle: Myanmar Cheroot & Cigarette Showcase
+title: ချမ်းသာ 
+subtitle: ဆေးပေါ့လိပ်အမျိုးမျိုးရောင်းဝယ်ရေး
 type: products
 image: /img/products-jumbotron.jpg
 intro:
