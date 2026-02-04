@@ -1,0 +1,98 @@
+{{ with .showcase }}
+  {{/* Build a simple (key -> text) i18n dictionary from front matter */}}
+  {{ $scratch := newScratch }}
+  {{ $scratch.Set "en" (dict
+    "showcase.heading" .heading_en
+    "showcase.subheading" .subheading_en
+  ) }}
+  {{ $scratch.Set "my" (dict
+    "showcase.heading" .heading_my
+    "showcase.subheading" .subheading_my
+  ) }}
+
+  {{ range .cards }}
+    {{ $k := .key }}
+    {{ $scratch.Set "en" (merge ($scratch.Get "en") (dict
+      (printf "cards.%s.title" $k) .title_en
+      (printf "cards.%s.desc" $k) .desc_en
+      (printf "cards.%s.pack" $k) .pack_en
+      (printf "cards.%s.cta" $k) .cta_text_en
+    )) }}
+    {{ $scratch.Set "my" (merge ($scratch.Get "my") (dict
+      (printf "cards.%s.title" $k) .title_my
+      (printf "cards.%s.desc" $k) .desc_my
+      (printf "cards.%s.pack" $k) .pack_my
+      (printf "cards.%s.cta" $k) .cta_text_my
+    )) }}
+
+    {{ with .price_en }}
+      {{ $scratch.Set "en" (merge ($scratch.Get "en") (dict (printf "cards.%s.price" $k) .)) }}
+    {{ end }}
+    {{ with .price_my }}
+      {{ $scratch.Set "my" (merge ($scratch.Get "my") (dict (printf "cards.%s.price" $k) .)) }}
+    {{ end }}
+
+    {{ range $i, $b := .bullets_en }}
+      {{ $scratch.Set "en" (merge ($scratch.Get "en") (dict (printf "cards.%s.bullets.%d" $k $i) $b)) }}
+    {{ end }}
+    {{ range $i, $b := .bullets_my }}
+      {{ $scratch.Set "my" (merge ($scratch.Get "my") (dict (printf "cards.%s.bullets.%d" $k $i) $b)) }}
+    {{ end }}
+  {{ end }}
+
+  <script id="chanthar-i18n" type="application/json">{{ dict "en" ($scratch.Get "en") "my" ($scratch.Get "my") | jsonify | safeHTML }}</script>
+
+  <section class="product-showcase pv4 pv5-l">
+    <div class="ph3 mw7 center">
+      <h2 class="f2 b lh-title mb2 product-showcase__kicker">
+        <span data-i18n="showcase.heading">{{ .heading_en }}</span>
+      </h2>
+      <p class="mw6 mb4">
+        <span data-i18n="showcase.subheading">{{ .subheading_en }}</span>
+      </p>
+
+      <div class="product-grid">
+        {{ range .cards }}
+          {{ $k := .key }}
+          <article class="product-card">
+            <div class="product-card__media">
+              <img src="{{ .image }}" alt="" loading="lazy">
+            </div>
+
+            <div class="product-card__body">
+              <h3 class="f3 b lh-title mb2 product-card__title">
+                <span data-i18n="cards.{{ $k }}.title">{{ .title_en }}</span>
+              </h3>
+
+              <p class="product-card__desc">
+                <span data-i18n="cards.{{ $k }}.desc">{{ .desc_en }}</span>
+              </p>
+
+              <ul class="product-meta">
+                <li class="product-pill">
+                  <span data-i18n="cards.{{ $k }}.pack">{{ .pack_en }}</span>
+                </li>
+                {{ with .price_en }}
+                  <li class="product-pill">
+                    <span data-i18n="cards.{{ $k }}.price">{{ . }}</span>
+                  </li>
+                {{ end }}
+              </ul>
+
+              <ul class="product-bullets">
+                {{ range $i, $bullet := .bullets_en }}
+                  <li><span data-i18n="cards.{{ $k }}.bullets.{{ $i }}">{{ $bullet }}</span></li>
+                {{ end }}
+              </ul>
+
+              {{ $isExternal := hasPrefix .cta_link "http" }}
+              <a class="product-cta" href="{{ .cta_link }}" {{ if $isExternal }}target="_blank" rel="noopener noreferrer"{{ end }}>
+                <span data-i18n="cards.{{ $k }}.cta">{{ .cta_text_en }}</span>
+              </a>
+            </div>
+          </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}

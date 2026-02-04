@@ -1,7 +1,11 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Kaldi"
+title = "Chan Thar"
+
+# Brand
+# NOTE: This title is used in the browser tab as: "<page title> | <site title>"
+
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 

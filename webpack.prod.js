@@ -12,7 +12,8 @@ module.exports = merge(common, {
 
   output: {
     filename: "[name].[hash:5].js",
-    chunkFilename: "[id].[hash:5].css",
+    // Chunks are JS; using a .css extension here can cause confusing output/caching.
+    chunkFilename: "[id].[hash:5].js",
     path: path.resolve(__dirname, "dist")
   },
 

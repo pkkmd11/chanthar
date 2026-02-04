@@ -20,6 +20,18 @@ body {
   background-color: var(--off-white);
  }
 
+/* Burmese / Myanmar typography safety */
+html.lang-my body,
+body.lang-my {
+  font-family: var(--font-family-mm);
+  line-height: var(--line-height-mm);
+}
+
+html.lang-my p,
+body.lang-my p {
+  max-width: 36rem;
+}
+
 p {
   margin-bottom: var(--spacing-medium);
   max-width: 32rem;

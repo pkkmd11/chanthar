@@ -64,6 +64,29 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Image, name: image, widget: image}
           - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
           - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          - {label: Product Showcase, name: showcase, widget: object, fields: [
+              {label: Heading (EN), name: heading_en, widget: string},
+              {label: Heading (MY), name: heading_my, widget: string},
+              {label: Subheading (EN), name: subheading_en, widget: text},
+              {label: Subheading (MY), name: subheading_my, widget: text},
+              {label: Cards, name: cards, widget: list, fields: [
+                {label: Key (retail/wholesale), name: key, widget: string},
+                {label: Image, name: image, widget: image},
+                {label: Title (EN), name: title_en, widget: string},
+                {label: Title (MY), name: title_my, widget: string},
+                {label: Description (EN), name: desc_en, widget: text},
+                {label: Description (MY), name: desc_my, widget: text},
+                {label: Pack label (EN), name: pack_en, widget: string},
+                {label: Pack label (MY), name: pack_my, widget: string},
+                {label: Price label (EN), name: price_en, widget: string, required: false},
+                {label: Price label (MY), name: price_my, widget: string, required: false},
+                {label: Highlights (EN), name: bullets_en, widget: list},
+                {label: Highlights (MY), name: bullets_my, widget: list},
+                {label: CTA text (EN), name: cta_text_en, widget: string},
+                {label: CTA text (MY), name: cta_text_my, widget: string},
+                {label: CTA link, name: cta_link, widget: string}
+              ]}
+            ]}
           - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}

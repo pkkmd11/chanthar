@@ -91,6 +91,55 @@ pricing:
         - Unlimited varieties
       plan: Custom
       price: '?'
+
+showcase:
+  heading_en: Product Showcase
+  heading_my: ချမ်းသာ ထုတ်ကုန်များ
+  subheading_en: Hand-rolled cheroots with a modern premium finish.
+  subheading_my: လက်ဖြင့်လိပ်ထားသော ဆေးပေါ့လိပ်ကို ခေတ်သစ်အဆင့်မြင့် အရသာနဲ့ သေသပ်လှပစွာ တင်ဆက်ထားပါတယ်။
+  cards:
+    - key: retail
+      image: /img/chanthar-retail.jpg
+      title_en: Retail Selection
+      title_my: လက်လီ ရွေးချယ်မှု
+      desc_en: For personal enjoyment, gifts, and everyday rituals.
+      desc_my: ကိုယ်ပိုင်အပန်းဖြေအတွက်လည်း၊ လက်ဆောင်အတွက်လည်း၊ နေ့စဉ် အလေ့အထအဖြစ်လည်း သင့်တော်ပါတယ်။
+      pack_en: Pack: 20 sticks
+      pack_my: ထုပ်စည်း: ၂၀ လိပ်
+      price_en: Premium tiers available
+      price_my: အဆင့်မြင့်တန်း ရနိုင်
+      bullets_en:
+        - Smooth draw, clean finish
+        - Crafted with care, consistent roll
+        - Premium presentation
+      bullets_my:
+        - မီးဆွဲချောမွေ့၊ အရသာသန့်ရှင်း
+        - လက်ရာသေသပ်၊ လိပ်အဆင့်ညီ
+        - တင်ဆက်ပုံအဆင့်မြင့်
+      cta_text_en: Shop Retail
+      cta_text_my: လက်လီ ဝယ်ယူရန်
+      cta_link: https://m.me/61577966744168?ref=retail
+    - key: wholesale
+      image: /img/chanthar-wholesale.jpg
+      title_en: Wholesale Supply
+      title_my: လက်ကား ထောက်ပံ့ရေး
+      desc_en: Reliable batches for shops, partners, and distributors.
+      desc_my: ဆိုင်များ၊ ပါတနာများ၊ ဖြန့်ချိသူများအတွက် ယုံကြည်ရသော အစုလိုက် ထုတ်လုပ်မှုဖြင့် ထောက်ပံ့ပေးပါတယ်။
+      pack_en: Cartons and bulk packs
+      pack_my: ကာတန်နှင့် အစုလိုက်ထုပ်
+      price_en: Partner pricing available
+      price_my: ပါတနာစျေးနှုန်း ရနိုင်
+      bullets_en:
+        - Consistent quality across batches
+        - Packaging options for your shelf
+        - Fast coordination via direct contact
+      bullets_my:
+        - ထုတ်လုပ်မှုတိုင်း အရည်အသွေးတည်ငြိမ်
+        - စင်တင်ရန် သင့်တော်သော ထုပ်ပိုးရွေးချယ်စရာ
+        - တိုက်ရိုက်ဆက်သွယ်၍ လျင်မြန်စွာညှိနှိုင်း
+      cta_text_en: Request Wholesale
+      cta_text_my: လက်ကား တောင်းခံရန်
+      cta_link: https://m.me/61577966744168?ref=wholesale
 ---
 
 

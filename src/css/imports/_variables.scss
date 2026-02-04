@@ -1,7 +1,13 @@
 :root {
 	/* Colors */
-	--primary: rgba(255, 68, 0, 1);
-	--highlight: rgba(254, 213, 198, 1);
+	/* Leaf & Wood palette */
+	--primary: rgba(45, 90, 64, 1); /* leaf green */
+	--highlight: rgba(228, 215, 196, 1); /* warm teak highlight */
+	--gold: rgba(198, 164, 92, 1);
+	--teak: rgba(74, 49, 35, 1);
+	--surface: rgba(255, 253, 252, 1);
+	--surface-2: rgba(249, 245, 241, 1);
+	--border: rgba(226, 218, 210, 1);
 	--white: rgba(255, 255, 255, 1);
 	--off-white: rgba(255, 253, 252, 1);
 	--grey-1: rgba(245, 243, 242, 1);
@@ -11,8 +17,10 @@
 	--black: rgba(43, 37, 35, 1);
 
 	/* Typography */
-	--font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
-	--line-height: 1.5;
+	--font-family: Inter, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+	--font-family-mm: 'Noto Sans Myanmar', 'Pyidaungsu', Inter, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+	--line-height: 1.55;
+	--line-height-mm: 1.85;
 
 	--font-size: 18px;
 	--font-size-m: 20px;
