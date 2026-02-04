@@ -1,97 +1,78 @@
 ---
-title: Our Coffee
+title: ချမ်းသာ ထုတ်ကုန်များ
+subtitle: Myanmar Cheroot & Cigarette Showcase
 type: products
 image: /img/products-jumbotron.jpg
 intro:
-  heading: What we offer
+  heading: ကျွန်ုပ်တို့ပံ့ပိုးသည့် ထုတ်ကုန်များ
   description: >-
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee production,
-    roasting and brewing seriously and we’re glad to pass that knowledge to
-    anyone.
+    ချမ်းသာ အောက်တွင် မြန်မာ ချယ်ရုတ်နှင့် စီးဂရက်အမျိုးအစားများကို လက်လီ/လက်ကား အတွက်
+    ယုံကြည်စိတ်ချရသော အရည်အသွေးနှင့် တည်ငြိမ်မှုဖြင့် ပံ့ပိုးတင်ပြပါသည်။
   blurbs:
     - image: /img/illustrations-coffee.svg
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+        မြန်မာ ချယ်ရုတ် အမျိုးမျိုး — အရွယ်အစား၊ အရသာနှင့် ထုပ်ပိုးပုံစံ မျိုးစုံကို
+        လိုအပ်ချက်အလိုက် ရရှိနိုင်သည်။
     - image: /img/illustrations-coffee-gear.svg
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        စီးဂရက် ရွေးချယ်စရာများ — လုပ်ငန်းသုံးနှင့် လက်လီလိုအပ်ချက်များအတွက်
+        တိတိကျကျညှိနှိုင်းပေးပါသည်။
     - image: /img/illustrations-tutorials.svg
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        ထုပ်ပိုး/တင်ဆက်မှု အကြံပြုခြင်း — ဆိုင်များ၊ ပါတနာများအတွက် စင်တင်ပုံစံနှင့်
+        အသိအမှတ်ပြုမှု တိုးတက်ရေးအတွက် အကြံပေးပါသည်။
     - image: /img/illustrations-meeting-space.svg
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        တိုက်ရိုက်ဆက်သွယ်၍ လိုအပ်ချက်ကို အမြန်ညှိနှိုင်းနိုင်ပါသည်။
 main:
-  heading: Great coffee with no compromises
+  heading: မြန်မာ ချယ်ရုတ် ယဉ်ကျေးမှုကို ဂုဏ်ပြုခြင်း
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    ချမ်းသာ သည် မြန်မာ ချယ်ရုတ်ယဉ်ကျေးမှုကို ထိန်းသိမ်းကာ အရည်အသွေးမြင့်
+    လက်ရာတင်ပြမှုဖြင့် ဈေးကွက်အတွင်း ယုံကြည်မှုကို တည်ဆောက်နေပါသည်။
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
+    alt: Hand-rolled cheroots on a tray
     image: /img/products-grid3.jpg
   image2:
-    alt: A green cup of a coffee on a wooden table
+    alt: Cheroot bundles and packaging
     image: /img/products-grid2.jpg
   image3:
-    alt: Coffee beans
+    alt: Tobacco leaves and tools
     image: /img/products-grid1.jpg
-testimonials:
-  - author: Elisabeth Kaurismäki
+  testimonials:
+  - author: မိတ်ဖက်လုပ်ငန်းရှင် (Partner)
     quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
+      အရည်အသွေးတည်ငြိမ်ပြီး ထုပ်ပိုးပုံစံက စင်တင်ရန်သင့်တော်လို့ ယုံကြည်စိတ်ချရပါတယ်။
+  - author: လက်လီဆိုင် (Retail)
     quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
+      ပေးပို့မှု အချိန်မှန်ပြီး ဆက်သွယ်မှု မြန်ဆန်ပါတယ်။
 full_image: /img/products-full-width.jpg
 pricing:
-  heading: Monthly subscriptions
+  heading: လက်လီ/လက်ကား ပံ့ပိုးမှု
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    လိုအပ်ချက်အလိုက် အစုလိုက်နှင့် ကာတန်ထုပ်ပိုးမှုများ ရရှိနိုင်သည်။ ဆက်သွယ်၍
+    အသေးစိတ်ညှိနှိုင်းပါ။
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: လက်လီအတွက် သင့်တော်သော ပမာဏ
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans
-        - One or two varieties of beans
-      plan: Small
-      price: '50'
-    - description: Great for avid drinkers, java-loving couples and bigger crowds
+        - ချယ်ရုတ် အမျိုးမျိုး
+        - အလှဆင်ထုပ်ပိုးမှု
+        - စင်တင်ရန် အဆင်ပြေသော အရွယ်အစား
+      plan: လက်လီ
+      price: '—'
+    - description: လက်ကားပမာဏ အတွက် အမြန်ညှိနှိုင်း
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+        - အစုလိုက်/ကာတန် ထုပ်ပိုး
+        - ထုတ်လုပ်မှုတည်ငြိမ်မှု
+        - ပါတနာ စျေးနှုန်း
+      plan: လက်ကား
+      price: '—'
+    - description: လိုအပ်ချက်အလိုက် စိတ်ကြိုက်
       items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '?'
-
+        - အရွယ်အစား/အရသာ စိတ်ကြိုက်
+        - ထုပ်ပိုးအညွှန်း စိတ်ကြိုက်
+        - တိုက်ရိုက်ညှိနှိုင်း
+      plan: စိတ်ကြိုက်
+      price: '—'
 showcase:
   heading_en: Product Showcase
   heading_my: ချမ်းသာ ထုတ်ကုန်များ

@@ -1,20 +1,20 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
+title: "ချမ်းသာ Cheroot & Cigarette Agency"
+subtitle: မြန်မာ ချယ်ရုတ်ယဉ်ကျေးမှုနှင့် အရည်အသွေးမြင့် ဆေးပေါ့လိပ်များ (Myanmar cheroot culture & quality blends)
 image: /img/home-jumbotron.jpg
 blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+    heading: "ကျွန်ုပ်တို့အကြောင်း (About ChanThar)"
+    text: "ချမ်းသာ သည် မြန်မာ ချယ်ရုတ်နှင့် စီးဂရက် ဌာနချုပ်တင်ပြမှုအတွက် တည်ထောင်ထားသော အေဂျင်စီဖြစ်ပါတယ်။ လက်ရာသေသပ်မှု၊ အရသာတည်ငြိမ်မှုနှင့် ထုပ်ပိုးတင်ဆက်မှုကို ဦးစားပေးပြီး နိုင်ငံတွင်း ထုတ်လုပ်သူများနှင့် လက်ရာပညာရှင်များကို တိုက်ရိုက်ပံ့ပိုးကြသည်။"
 intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
+    heading: "ကျွန်ုပ်တို့ပံ့ပိုးသည့်ဝန်ဆောင်မှု (What we offer)"
+    text: "လက်လီ/လက်ကား ထောက်ပံ့ရေး၊ လုပ်ငန်းသုံး စီးဂရက်အမျိုးအစားများ၊ ချယ်ရုတ်အမျိုးအစားများနှင့် မိတ်ဆက်ပြသမှု ဝန်ဆောင်မှုများကို ပေးဆောင်သည်။ ကျေးလက်လက်ရာနှင့် ခေတ်မီအရသာပေါင်းစည်းထားသော မြန်မာချယ်ရုတ်များကို ဦးစားပေးတင်ပြပါသည်။"
 products:
     - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
+      text: "မြန်မာ ချယ်ရုတ် အမျိုးမျိုး — အရသာ၊ ထုပ်ပိုးပုံစံ၊ အရွယ်အစား အမျိုးမျိုးကို လက်လီ/လက်ကားအတွက် ရရှိနိုင်သည်။"
     - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
+      text: "စီးဂရက် ရွေးချယ်စရာများ — လုပ်ငန်းသုံးနှင့် လက်လီလိုအပ်ချက်များအတွက် တိတိကျကျညှိနှိုင်းပေးပါသည်။"
 values:
-    heading: Our values
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+    heading: "ကျွန်ုပ်တို့ရဲ့ ဦးစားပေးချက် (Our values)"
+    text: "မြန်မာ ချယ်ရုတ်ယဉ်ကျေးမှုကို ဂုဏ်ပြု၍ အရည်အသွေး၊ တိကျမှုနှင့် ယုံကြည်ရမှုကို အမြဲတမ်း ဦးစားပေးထားသည်။"
 ---
 
